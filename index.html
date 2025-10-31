@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title >My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="portfolio.png">
+</head>
+<body>
+
+  
+  <header>
+    <nav>
+      <a class="logo" href="#home">My <span style="color: greenyellow; font-family: 'Times New Roman', Times, serif;">Portfolio</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h2 class="toHover">Hi,Im SALAMON SANTHOSH 👋</h2>
+    <p>I am a fresher Full Stack Developer skilled in HTML, CSS, JavaScript and React.  
+       I am passionate about creating responsive and user-friendly web applications.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="toHover">About Me</h2>
+    <div style="margin-right: -10%;">
+    <a href="mailto:salamonsanthosh7@gmail.com"><img src="gmail-new-2020-seeklogo.png" alt="Gmail" style="width: 20px;height: 15px; padding-right: 90px;"></a>
+    <a href="https://github.com/salamonsanthosh7-dev"><img src="github-seeklogo.png" alt="Github" style="width: 20px;height: 15px;padding-right: 100px;"></a>
+    <a href="https://www.linkedin.com/in/salamon-santhosh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin-seeklogo.png" alt="Linkedin" style="width: 40px;height: 15px;padding-right: 150px;"></a>
+    </div>
+    <p>I recently completed a Full Stack Development course in Java and I am eager to start my career in the Developer Field.  
+       I enjoy solving problems and learning new technologies.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="toHover">My Projects</h2><hr>
+    <div class="projects-grid">
+      <div class="project-card">  <a href="https://salamonsanthosh7-dev.github.io/salamonsanthosh.github.io/">
+        <h3 class="toHover">Project 1</h3>
+        <p class="zpattern">Food ordering website using Html(it provides the structure and the content of the website like brick,cement,wood for a House Construction),Css(its like an interior designing and finishing touches controlling fonts,colors,elements) and javascript(it adds interative and dynamic behaviour like how the lights turn on when clicking switch)</p></a>
+      </div>
+      
+      <div class="project-card"><a href="https://salamonsanthosh7-dev.github.io/Calculator4.github.io/">
+        <h3 class="toHover">Project 2</h3>
+        <p class="zpattern">A Simple Calculator Website.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="toHover">Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 salamonsanthosh. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
