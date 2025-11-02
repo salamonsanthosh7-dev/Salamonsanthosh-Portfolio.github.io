@@ -111,7 +111,7 @@ footer {
   padding: 15px;
   background: #333;
   color: #fff;
-  margin-bottom:0vw;
+  margin-bottom:0%;
 }
 .toHover:hover{
   
@@ -121,4 +121,5 @@ footer {
   transition: 0.2s;
 
 }
+
 
