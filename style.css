@@ -111,7 +111,7 @@ footer {
   padding: 15px;
   background: #333;
   color: #fff;
-  margin-top: 20px;
+  margin-bottom:0px;
 }
 .toHover:hover{
   
@@ -119,4 +119,5 @@ footer {
   background-color: #ccc;
   border-radius: 45%;
   transition: 0.2s;
+
 }
